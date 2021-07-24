@@ -3,7 +3,7 @@ import Layout from 'components/Layout';
 import axios from 'axios';
 import moment from 'moment';
 // import { useRouter } from "next/router"
-import Link from 'next/Link';
+import Link from 'next/link';
 import ResourceLabel from 'components/ResourceLabel';
 const ResourceDetail = ({resource}) => {
     // const router = useRouter();

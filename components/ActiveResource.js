@@ -1,6 +1,6 @@
 
 import axios from "axios"
-import Link from "next/Link"
+import Link from "next/link"
 import moment from "moment";
 import {useState, useEffect} from 'react';
 
