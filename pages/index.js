@@ -24,7 +24,7 @@ import ResourceList from 'components/ResourceList'
 // Data is fresh
 export async function getServerSideProps() {
 
-  const resData = await fetch("http://localhost:3000/api/resources")
+  const resData = await fetch(`${process.env.API_URL}/resources`)
   
   try{
     const data = await resData.json()
