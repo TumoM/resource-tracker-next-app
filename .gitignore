@@ -32,3 +32,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.env.development
+.vscode/
+jsconfig.json
+resource_tracker_app_api/
